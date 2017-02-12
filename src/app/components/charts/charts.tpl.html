@@ -1,0 +1,24 @@
+<div class="container">
+    <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="bmi-nav" ui-sref="bmi" ui-sref-active="active"><a href="#">BMI</a></li>
+            <li id="bp-nav" ui-sref="bp" ui-sref-active="active"><a href="#">Blood Preassure</a></li>
+            <li id="acq-nav" ui-sref="acq" ui-sref-active="active" ><a href="#">ACQ</a></li>
+        </ul>
+    </div>
+    <div class="jumbotron text-center">
+        <h1>Charts</h1>
+        <p class="lead " ng-if="charts.isChartSelected()">
+            <br> Look at the chart below
+        </p>
+        <div class="lead no-charts" ng-if="!charts.isChartSelected()">
+            <br>
+            <h4>Choose chart to display</h4>
+            <br>
+            <span ui-sref="bmi" class="pick-chart bmi">BMI Chart</span>
+            <span ui-sref="bp" class="pick-chart bp">Blood Preassure Chart</span>
+            <span ui-sref="acq" class="pick-chart acq">ACQ< Chart</span>
+        </div>
+    </div>
+    <div ui-view></div>
+</div>
