@@ -2,14 +2,14 @@
   "name": "angularSeedApp",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "1.6.1",
+    "angular": "1.6.2",
     "angular-ui-router": "1.0.0-rc.1",
     "bootstrap-sass-official": "*",
-      "angular-nvd3": "*",
-      "lodash": "~3.0",
-      "moment": "*"
+      "angular-nvd3": "1.0.9",
+      "lodash": "3.0",
+      "moment": "2.17.0"
   },
   "devDependencies": {
-    "angular-mocks": "*"
+    "angular-mocks": "1.6.2"
   }
 }
