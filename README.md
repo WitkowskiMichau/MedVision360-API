@@ -1,5 +1,10 @@
-I used Angular Seed App - because setuping whole envainroment from srtach takes forever.
-Below are istructions how to use it.
+I used Angular Seed App - because setuping whole environment from scratch takes forever.
+
+I decided to use 3 different components so show usage of ui-router with component and to have example to use e2e test.
+Services could be done with parameter and ID in local storage - but if it is only a simple task I thought that is enough.
+Did only one test for service to prove that I actually know something about unit test, and promise/digest.
+
+Below are instructions how to use it.
 
 Instruction You need
 
@@ -9,9 +14,7 @@ Run npm install -g yo bower grunt-cli gulp && npm install && bower install to in
 - gulp test
 - gulp protractor
 
-I decided to use 3 different components so show usage of ui-routher with component and to have example to use e2e test.
-Services could be done with parameter and ID in local storage - but if it is only a simple task I thought that is enought.
-Did only one test for service to prove that I actually know something abuout unit test, and promiste/digest.
+
 
 ## Angular Seed App 
 
