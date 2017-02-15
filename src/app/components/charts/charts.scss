@@ -5,3 +5,9 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+.navbar-nav {
+    li.active a{
+        text-decoration: none;
+        background-color: #eee;
+    }
+}
